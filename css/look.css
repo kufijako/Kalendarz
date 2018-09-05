@@ -1,0 +1,64 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: url(../img/pexels-photo.jpg);
+    background-size: cover;
+}
+
+.calendar-days{
+    background-color: rgba(255, 255, 255, 0.80);
+    
+}
+
+.day {
+    text-align: center;
+    font-size: 30px;
+    
+    border-right: 1px solid lightslategray;
+    border-top: 1px solid lightslategray;
+    background-color: white;
+    color: black;
+}
+
+.week .day:first-child{
+    border-left: 1px solid lightslategray;
+}
+
+.week:last-child .day{
+    border-bottom: 1px solid lightslategray;
+}
+
+.day:hover{
+    background-color: crimson;
+}
+
+.another_month {
+    background-color: rgba(198, 198, 198, 0.21);
+    color: lightslategray;
+}
+.another_month:hover{
+    background-color: lightslategray;
+    color: white;
+}
+
+.active {
+    background-color: crimson;
+    color: white;
+}
+
+.top-bar {
+    font-size: 30px;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+
+}
+
+.weekday {
+    font-size: 16px;
+    text-align: center;
+    color: #FF5C00;    
+}
+
+.weekend{
+	color:crimson;
+}

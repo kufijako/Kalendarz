@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+
+}
+
+.container { 
+    width: 640px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+}
+.calendar-days{
+    padding: 50px 40px 50px;
+
+}
+
+.week {
+    display: block;
+    width: 576px;
+}
+
+
+.day {
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    display: inline-block;
+    overflow: hidden;    
+}
+
+
+.top-bar {
+    height: 56px;
+    line-height: 56px;
+    width:  640px;
+}
+
+
+
+.weekday {
+    display: inline-block;
+    width: 80px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
