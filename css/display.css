@@ -6,9 +6,10 @@ html
 body{
     margin: 0;
     padding: 0;
-    height:100%;
-    overflow: scroll;
     font-size: 0;
+	height:100%;
+    overflow: scroll
+
 }
 
 .container { 
@@ -37,8 +38,7 @@ body{
     width: 80px;
     height: 80px;
     line-height: 80px;
-    display: inline-block;   
-    
+    display: inline-block;
 }
 
 
@@ -51,9 +51,13 @@ body{
 
 
 .weekday {
-    display: inline-block;
+    margin: 0;
     width: 80px;
-    line-height: 40px;
-    text-transform: uppercase;
-    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+	margin-right: 1px;
+}
+.weekday:first-child {
+	margin-left: 1px;
 }
