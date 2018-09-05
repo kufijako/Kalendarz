@@ -5,25 +5,21 @@ html{
 	-moz-background-size: cover;
 	-o-background-size: cover;
     background-size: cover;
-    height: 100%; 
-    overflow: hidden;
-}
 
-body {           
-    height:100%;
-    overflow: scroll;
 }
-
 
 .calendar-days{
     background-color: rgba(255, 255, 255, 0.80);
     
 }
 
+.container{
+    border-radius:3%;
+   
+}
 .day {
     text-align: center;
     font-size: 30px;
-    
     border-right: 1px solid lightslategray;
     border-top: 1px solid lightslategray;
     background-color: white;
